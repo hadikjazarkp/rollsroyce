@@ -1,0 +1,293 @@
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    user-select: none;
+    transition: all 0.5s;
+ 
+}
+.menu:hover{
+ color: rgb(77, 77, 74);
+}
+    
+
+img{
+    height: 40px;
+    
+}
+.as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    background: url(rollsroyssss.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    border: 1px solid rgb(247, 242, 242);
+    margin-bottom: 100px;
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+}
+.ha {
+    opacity: 0.5;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.5s;
+ 
+}
+.navigation a:hover{
+ color: rgb(100, 100, 78);
+}
+   
+
+
+.navigation i {
+    color: #fff;
+    transition: all 0.5s;
+ 
+}
+.navigation i:hover{
+ color: rgb(95, 95, 82);
+}
+
+.photo{
+    background-size: cover;
+    background-position: center;
+
+}
+.wrapper {
+    color: #fff;
+   margin-left: 84px;
+
+}
+.wraith{
+    color: #fff;
+}
+.button{
+    margin-left: 84px;
+   
+}
+.black-badge-logo{
+color: #F9CA20;
+margin-left: 189px;
+}
+.hp
+ {
+    display: flex;
+    flex-direction: column;
+        position: relative;
+        animation: mymove 3s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes mymove {
+        from {top: 100px;}
+        to {top: 0px; }
+    }  
+
+.fst{
+    margin-left: 50px;
+    font-size: 64px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+.button {
+    background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 47px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 268px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-top: 30px;
+  transition: all 0.5s;
+ 
+}
+.button:hover{
+    background-color: rgb(77, 77, 74);
+}
+ 
+
+.scddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    background: url(original\ \(3\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.scnd{
+    margin-left: 50px;
+    font-size: 64px;
+    font-weight: 200;
+    margin-top: 30px;
+
+
+}
+.buttonscnd{
+    background-color: #ddd;
+border: none;
+color: black;
+padding: 10px 40px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 328px;
+cursor: pointer;
+border-radius: 16px;
+margin-top: 30px;
+transition: all 0.5s;
+ 
+}
+.buttonscnd:hover{
+    background-color: rgb(77, 77, 74);
+}
+
+.hpscnd{
+display: flex;
+flex-direction: column;
+position: relative;
+animation: mymove 3s;
+animation-fill-mode: forwards;
+}
+@keyframes mymove {
+from {top: 100px;}
+to {top: 0px; }
+} 
+.thrdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;    
+background-size: cover;
+background-position: center;
+
+      
+    }
+.fourthdiv{
+width: 100%;
+height: 140vh;
+background-color: rgb(34, 31, 31);
+} 
+.frthtype{
+margin-top: 112px;
+margin-left: 33pc;
+font-weight: 100;
+color: #fff;
+} 
+
+.frthstype{
+margin-top: 19px;
+margin-left: 35pc;
+font-weight: 100;
+color: #fff;
+}   
+.poster-rollsimage{
+width: 410px;
+height: 411px;
+margin-top: 26px;
+margin-left: 26px;
+transition: height 2s;
+}
+.poster-rollsimage:hover{
+    height: 420px;
+
+}
+.flex-container{
+    display: flex;
+}
+.pera{
+    color: #ddd;
+    margin-top: 19px;
+    margin-left: 50px;
+}
+.headd{
+    font-size: x-large;
+    color: #ddd;
+    margin-top: 26px;
+    margin-left: 50px
+    
+}
+.six{
+    background-color: #0e0c01;
+    width: 100%;
+    height: 400px;
+}    
+.rolls-royce{
+    color: #ddd;
+    padding-top: 70px;
+    padding-left: 600px;
+    border: 1px solid rgb(247, 242, 242);
+    margin-bottom: 100px;
+    
+}
+.roy{
+    margin-left: 20px;
+    margin-top: -17px;
+    
+}      
+.flex-con{
+    display: flex;
+    flex-wrap: wrap;
+   height: 20vh;
+    color: #ddd;
+    flex-wrap: wrap;
+   
+ 
+}
+
+
+.box{
+    width: 200px;
+    margin-top: -72px;
+    margin-left: 22px;
+    transition: all 0.5s;
+ 
+}
+.box:hover{
+ color: rgb(100, 100, 78);
+}
+.icons{
+    color: #585854;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -41px;
+
+}
+.iconss{
+    margin-left: 20px;
+    font-size: 30px;
+}
+                                                                                   
